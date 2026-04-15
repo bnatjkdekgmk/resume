@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brittany’s Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Brittany Smith</h1>
+        <p>Professional Resume</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>University of XYZ, 2020</p>
+            </article>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <article>
+                <h3>Software Engineer</h3>
+                <p>Tech Company ABC, 2020 - Present</p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+                <li>Python</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Brittany Smith</p>
+    </footer>
+
+    <script>
+        // Populate the current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Console log message
+        console.log("Resume page loaded successfully!");
+    </script>
+</body>
+</html>
